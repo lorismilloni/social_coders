@@ -29,6 +29,12 @@ Atenção! Leia atentamente as instruções que vocês encontrarem!
     Digite no terminal `git branch`
 15. Agora chegou a hora de colocar essas alterações no repositório online!
     Digite no terminal `git push -u nome_da_sua_branch`
+16. Ainda não acabou! Vá na página do projeto e crie seu PULL REQUEST
+    A base é a branch main, e a compare é a sua branch
+    Clique em Create Pull Request e confirme, outra pessoa vem aprovar dps
+    Para mais orientação disso tem esse vídeo
+    [Como criar seu primeiro Pull Request no GitHub](https://www.youtube.com/watch?v=Du04jBWrv4A)
+
 
 Nessa playlist tem vídeos curtos para ajudar:
 
