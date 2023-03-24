@@ -5,35 +5,35 @@ Repositório e portfólio oficial da empresa Social Coders.
 Atenção! Leia atentamente as instruções que vocês encontrarem!
 
 1. Crie uma conta no site do GitHub, pense que você usará para postar seus projetos além de acessar esse repositório do trabalho, já é um treinamento.
-2. Pesquise como fazer a instalação da ferramenta Git no seu sistema operacional.
+2. Pesquise como fazer a instalação da ferramenta Git no seu sistema operacional.\
    Git é a ferramenta local de versionamento, GitHub é o repositório online.
 3. Abra o VSCode na pasta que você deseja clonar o repositório.
 4. Abra o terminal do VSCode com o comando `ctrl+j`.
 5. Abra seu browser e vá para a página do nosso projeto: https://github.com/lorismilloni/social_coders
 6. No botão azul "Code", clique e selecione "SSH", copie esse link.
-7. Volte para seu terminal (que está na pasta que você copiará o repositório) e escreva:
-   `git clone link_copiado`
+7. Volte para seu terminal (que está na pasta que você copiará o repositório) e escreva:\
+   `git clone link_copiado`\
    Aperte `enter` no final desses comandos.
 8. Pronto! Verifique se você tem os arquivos no seu computador.
 9. Agora crie sua branch de trabalho!
-10. Digite no terminal do VSCode o comando:
-    `git checkout -b meu_nome`
+10. Digite no terminal do VSCode o comando:\
+    `git checkout -b meu_nome`\
     Exemplo: `git checkout -b loris_milloni`
 11. Comece a alterar os arquivos, lembre de salvar sempre! (ctrl+s é o atalho para salvar)
-12. Terminou uma alteração? Adicione!
-    Use o comando `git add .`
+12. Terminou uma alteração? Adicione!\
+    Use o comando `git add .`\
     Usando o ponto você adiciona ao Git todos os arquivos que alterou.
-13. Commite suas alterações, é como oficializar os arquivos que adicinou.
-    Use o comando: `git commit -m 'nas aspas digite o que fez, tipo, criei um botão'`
-14. Confira se está na sua branch
+13. Commite suas alterações, é como oficializar os arquivos que adicinou.\
+    Use o comando: `git commit -m 'nas aspas digite o que fez, tipo, criei um botão'`\
+14. Confira se está na sua branch\
     Digite no terminal `git branch`
 15. Agora chegou a hora de colocar essas alterações no repositório online!
-    Digite no terminal `git push -u nome_da_sua_branch`
+    Digite no terminal `git push -u nome_da_sua_branch`\
     Depois desse primeiro uso, é só digitar `git push`.
-16. Ainda não acabou! Vá na página do projeto e crie seu PULL REQUEST
-    A base é a branch main, e a compare é a sua branch
-    Clique em Create Pull Request e confirme, outra pessoa vem aprovar dps
-    Para mais orientação disso tem esse vídeo
+16. Ainda não acabou! Vá na página do projeto e crie seu PULL REQUEST\
+    A base é a branch main, e a compare é a sua branch\
+    Clique em Create Pull Request e confirme, outra pessoa vem aprovar dps\
+    Para mais orientação disso tem esse vídeo\
     [Como criar seu primeiro Pull Request no GitHub](https://www.youtube.com/watch?v=Du04jBWrv4A)
 
 
