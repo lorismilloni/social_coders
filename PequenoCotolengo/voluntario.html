@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pequeno Cotolengo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./voluntario.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="header-bar" class="main-divs">
+            <!-- <div> -->
+                <h1>Formulário de inscrição para voluntários</h1>
+                <h2>Pequeno Cotolengo de Palmas</h2>
+                <div id="icons">
+                    <div>
+                        <a href="https://www.instagram.com/pequenocotolengo_/">
+                            <img src="https://www.svgrepo.com/show/30539/instagram-logo.svg" alt="whatsapp logo" width="20px">
+                            Instagram
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://api.whatsapp.com/send/?phone=5563981485588&text&type=phone_number&app_absent=0">
+                            <img src="https://www.svgrepo.com/show/38250/whatsapp.svg" alt="whatsapp logo" width="20px">
+                            Whatsapp
+                        </a>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <!-- <div> -->
+                <p>Somos uma organização sem fins lucrativos, e nossa missão é acolher e cuidar de jovens e adultos com Deficiência Intelectual.</p>
+            <!-- </div> -->
+        </div>
+        <div id="p-texts" class="main-divs">
+            <p>No Pequeno Cotolengo recebemos jovens do sexo masculino entre 18 e 59 anos e buscamos proporcionar a oportunidade de ressocialização, para que percebam a própria importância na sociedade. Quando os jovens tem oportunidade de se comunicar num ambiente seguro, podem desenvolver mais suas capacidades de aprendizado e expressão. Esse é um dos nossos trabalhos que gera impacto na vida das pessoas.
+            </p>
+            <p>A nossa Obra Orionita gera oportunidades por meio das doações e disposição voluntária, para doações temos nossa campanha chamada Amigo 10, em que os doadores doam mensalmente 10 reais para custear o projeto. E para voluntariado temos vários setores de apoio descritos no formulário.</p>
+        </div>
+        <div #id="form-personal-data" class="main-divs">
+            <form action="sign-in" method="post">
+                <div id="personal-data">
+                    <div class="form-data">
+                        <h4>Nome completo</h4>
+                        <input type="text" name="name" id="name" placeholder="João das Neves">
+                        <h4>Endereço</h4>
+                        <input type="text" name="address" id="address" placeholder="Rua Winter, Alameda 30, Lote 10">
+                        <h4>Telefone</h4>
+                        <input type="tel" name="number" id="number" placeholder="63981123123">
+                    </div>
+                    <div class="form-data">
+                        <h4>Instagram</h4>
+                        <input type="text" name="social-ig" id="social-ig" placeholder="https://www.instagram.com/seuperfil/">
+                        <h4>Email</h4>
+                        <input type="text" name="social-email" id="social-email" placeholder="email@email.com">
+                        <h4>Data de aniversário</h4>
+                        <label for="month">
+                            Mês
+                            <select name="birthdate" id="month">
+                                <optgroup label="month">
+                                    <option value="one">Janeiro</option>
+                                    <option value="two">Fevereiro</option>
+                                    <option value="three">Março</option>
+                                    <option value="four">Abril</option>
+                                    <option value="five">Maio</option>
+                                    <option value="six">Junho</option>
+                                    <option value="seven">Julho</option>
+                                    <option value="eigth">Agosto</option>
+                                    <option value="nine">Setembro</option>
+                                    <option value="ten">Outubro</option>
+                                    <option value="eleven">Novembro</option>
+                                    <option value="twelve">Dezembro</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label for="birthday">
+                            Dia
+                            <input type="number" name="birthday" id="birthday">
+                        </label>
+                    </div>
+                    <div id="authorization">
+                        <label for="auth-birthday">
+                            <p>Você autoriza o Cotolengo a enviar mensagem de feliz aniversário para você?</p>
+                            <input type="checkbox" name="auth-birthday" id="auth-birthday">
+                            Eu autorizo
+                        </label>
+                    </div>
+                </div>
+                <div id="personal-info-div">
+                    <div>
+                        <h3>Você deseja fazer parte da campanha Amigo 10?</h3>
+                        <label for="auth-amigo10">
+                            <input type="checkbox" name="auth-amigo10" id="auth-amigo10">
+                            Sim, quero doar 10 reais mensalmente à instituição
+                        </label><br><br>
+                        <label for="auth-voluntary">
+                            <input type="checkbox" name="auth-voluntary" id="auth-voluntary">
+                            Não, quero preencher minhas informações para ser voluntário
+                        </label>
+                    </div>
+                    <div>
+                        <h3>Áreas de atuação para voluntariado</h3>
+                        <p>Marque as caixas que se aplicam à sua disponibilidade:</p>
+                        <label for="role-01">
+                            <input type="checkbox" name="role-01" id="role-01">
+                            Comunicação
+                        </label><br>
+                        <label for="role-02">
+                            <input type="checkbox" name="role-02" id="role-02">
+                            Quitanda
+                        </label><br>
+                        <label for="role-03">
+                            <input type="checkbox" name="role-03" id="role-03">
+                            Bazar
+                        </label><br>
+                        <label for="role-04">
+                            <input type="checkbox" name="role-04" id="role-04">
+                            Telemarketing
+                        </label><br>
+                        <label for="role-05">
+                            <input type="checkbox" name="role-05" id="role-05">
+                            Gestão de projetos e captação de recursos
+                        </label><br>
+                        <label for="role-06">
+                            <input type="checkbox" name="role-06" id="role-06">
+                            Fisioterapia
+                        </label><br>
+                        <label for="role-07">
+                            <input type="checkbox" name="role-07" id="role-07">
+                            Enfermagem
+                        </label><br>
+                        <label for="role-08">
+                            <input type="checkbox" name="role-08" id="role-08">
+                            Auxiliar de limpeza
+                        </label><br>
+                        <label for="role-09">
+                            <input type="checkbox" name="role-09" id="role-09">
+                            Monitoria
+                        </label><br>
+                        <label for="role-10">
+                            <input type="checkbox" name="role-10" id="role-10">
+                            Transportes
+                        </label><br>
+                        <label for="role-11">
+                            <input type="checkbox" name="role-11" id="role-11">
+                            Fonaudiologia
+                        </label><br><br>
+                        <label for="role-04">
+                            Outros: <input type="text" name="role-04" id="role-04">
+                        </label><br>
+                    </div>
+                    <div id="time-available">
+                        <h3>Disponibilidade de horários</h3>
+                        <p>Dias da semana</p>
+                        <label for="monday">
+                            <input type="checkbox" name="monday" id="monday">
+                            Segunda-feira
+                        </label>
+                        <label for="tuesday">
+                            <input type="checkbox" name="tuesday" id="tuesday">
+                            Terça-feira
+                        </label>
+                        <label for="wednesday">
+                            <input type="checkbox" name="wednesday" id="wednesday">
+                            Quarta-feira
+                        </label>
+                        <label for="thursday">
+                            <input type="checkbox" name="thursday" id="thursday">
+                            Quinta-feira
+                        </label>
+                        <label for="friday">
+                            <input type="checkbox" name="friday" id="friday">
+                            Sexta-feira
+                        </label>
+                        <p>Finais de semana</p>
+                        <label for="saturday">
+                            <input type="checkbox" name="saturday" id="saturday">
+                            Sábado
+                        </label>
+                        <label for="sunday">
+                            <input type="checkbox" name="sunday" id="sunday">
+                            Domingo
+                        </label>
+                        <p>Horários</p>
+                        <label for="availability-time-morning">
+                            <input type="checkbox" name="availability-time-morning" id="availability-time-morning">
+                            Manhã
+                        </label>
+                        <label for="availability-time-afternoon">
+                            <input type="checkbox" name="availability-time-afternoon" id="availability-time-afternoon">
+                            Tarde
+                        </label>
+                    </div>
+                    <div id="availability-div">
+                        <p>
+                            Comente sua disponibilidade de horário:<br>
+                        </p>
+                        <label for="availability">
+                            <input type="text" name="availability" id="availability">
+                        </label>
+                        <button id="button-form" type="submit">
+                            Confirmar informações
+                        </button>
+                    </div>
+                </form>
+            </div>
+        <script src="" async defer></script>
+    </body>
+    </html>
