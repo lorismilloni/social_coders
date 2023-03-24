@@ -24,7 +24,7 @@ Atenção! Leia atentamente as instruções que vocês encontrarem!
     Use o comando `git add .`\
     Usando o ponto você adiciona ao Git todos os arquivos que alterou.
 13. Commite suas alterações, é como oficializar os arquivos que adicinou.\
-    Use o comando: `git commit -m 'nas aspas digite o que fez, tipo, criei um botão'`\
+    Use o comando: `git commit -m 'nas aspas digite o que fez, tipo, criei um botão'`
 14. Confira se está na sua branch\
     Digite no terminal `git branch`
 15. Agora chegou a hora de colocar essas alterações no repositório online!
