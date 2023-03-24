@@ -1,0 +1,89 @@
+body {
+    background-color: #faebd7;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+a {
+    color: #A84448;
+}
+
+.main-divs {
+    margin: 15px;
+    max-width: 700px;
+    justify-content: center;
+}
+
+#header-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 300px;
+}
+
+#p-texts {
+    text-align: justify;
+}
+
+#personal-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-data {
+    justify-content: space-between;
+    margin: 20px;
+    padding: auto;
+}
+
+#birthday {
+    width: 50px;
+}
+
+#authorization {
+    max-width: 450px;
+    text-align: center;
+}
+
+#personal-info-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#personal-info-div h3 {
+    text-align: center;
+}
+
+#time-available {
+    text-align: center;
+}
+
+#availability-div {
+    text-align: center;
+}
+
+#button-form {
+    border: none;
+    background-color: #99562a;
+    color: white;
+    text-decoration: solid;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 4%;
+    border-radius: 5px;
+    margin-top: 30px;
+}
