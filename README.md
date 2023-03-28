@@ -35,7 +35,11 @@ Atenção! Leia atentamente as instruções que vocês encontrarem!
     Clique em Create Pull Request e confirme, outra pessoa vem aprovar dps\
     Para mais orientação disso tem esse vídeo\
     [Como criar seu primeiro Pull Request no GitHub](https://www.youtube.com/watch?v=Du04jBWrv4A)
-
+17. É necessário atualizar a branch sempre, eu vou ajudar com isso, mas os comandos de referência são:
+    `git checkout main` (vai para a branch principal que recebeu os merges)
+    `git pull` (para puxar as informações atualizadas do repositório)
+    `git checkout sua_branch` (ATENÇÃO! tudo deve ter sido salvo, commitado, e pushado pro repositório)
+    `git rebase main`
 
 Nessa playlist tem vídeos curtos para ajudar:
 
@@ -45,20 +49,31 @@ Nessa playlist tem vídeos curtos para ajudar:
 
 [O que é uma branch e criando uma branch:](https://www.youtube.com/watch?v=gptt0KjFPR4&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=19)
 
-## O que falta fazermos no trabalho?
+## O que falta fazermos no trabalho do Cotolengo? 
 
-1. Uma Homepage no arquivo index.html
-2. Uma página de sobre no arquivo about.html
-3. O formulário oficial na página form.html
+1. Criar os elementos do formulário :heavy_check_mark:
+   1.1 Adicionar o formulário oficial na página form.html
+2. Estilizar o formulário :heavy_check_mark:
+3. Criar o texto da página sobre :heavy_check_mark:
+   3.1 Criar a página about.html
 4. Estilizar a home
-5. Estilizar a sobre
-6. Estilizar o formulário
-7. Adicionar ao rodapé o nome da empresa e link para acesso à página oficial
+5. Criar página da empresa (homepage) no arquivo index.html
+   5.1 Adicionar ao rodapé o nome da empresa e link para acesso à página oficial
+6. Estilizar a página da empresa
+7. Adicionar JavaScript
 
-## O que falta fazermos para o semestre?
+## O que falta fazermos no projeto extra da empresa?
 
-1. Uma página para nossa empresa
-2. Um novo projeto de duas páginas para adicionarmos na Homepage da nossa empresa
+1. Definir qual projeto será desenvolvido
+2. Criar página inicial em index.html
+3. Estilizar página inicial
+4. Criar página extra
+5. Estilizar página extra
+
+## O que falta fazermos para a página da empresa?
+
+1. Uma página inicial para nossa empresa em index.html mostrando os dois projetos
+2. Uma página simples de contato
 
 Adicionei meu formulário para orientação. Vamos criar os arquivos oficiais fora da pasta modelo.
 
