@@ -1,0 +1,129 @@
+h1 {
+    color: rgb(8, 41, 69);
+    text-align: center;
+}
+body{
+    background-color: #FFF3B0;
+}
+h2 {
+    color: rgb(8, 41, 69);
+    text-align: center;
+    font-size: 25px;
+}
+
+#label1 {
+    cursor: pointer;
+    font-size: 23px;
+}
+
+input {
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin-left: 200;
+    margin-right: 200;
+    display: inline-block;
+
+}
+
+input::placeholder {
+
+    font-size: medium;
+}
+
+main {
+    text-align: center;
+  
+}
+
+#dp {
+    border: none;
+    border-bottom: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   font-size: 18px;  
+
+}
+
+#form2 {
+
+    cursor: pointer;
+
+
+
+}
+
+#label1 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+
+
+}
+
+img {
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.div1 {
+    position: relative;
+    left: 100px;
+    display: inline-block;
+    text-align: left;
+    width: 350px;
+
+
+}
+
+.div2 {
+    position: relative;
+    left: 100px;
+    display: inline-block;
+    text-align: left;
+    width: 350px;
+    height: auto;
+
+
+
+}
+
+#div3 {
+    text-align: left;
+    display: inline-block;
+    font-size: 17px;
+
+}
+
+
+textarea {
+    resize: vertical;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+    font-size: medium;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.my-button {
+    background-color: #9E2A2B;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
