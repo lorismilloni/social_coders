@@ -39,7 +39,7 @@ Atenção! Leia atentamente as instruções que vocês encontrarem!
     `git checkout main` (vai para a branch principal que recebeu os merges)\
     `git pull` (para puxar as informações atualizadas do repositório)\
     `git checkout sua_branch` (ATENÇÃO! tudo deve ter sido salvo, commitado, e pushado pro repositório)\
-    `git rebase main`\
+    `git rebase main`
 
 Nessa playlist tem vídeos curtos para ajudar:
 
