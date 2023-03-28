@@ -1,7 +1,7 @@
 # social_coders
 Repositório e portfólio oficial da empresa Social Coders.
 
-## Orientação para usar o repositório no Git Hub:
+### Orientação para usar o repositório no Git Hub :warning: 
 Atenção! Leia atentamente as instruções que vocês encontrarem!
 
 1. Crie uma conta no site do GitHub, pense que você usará para postar seus projetos além de acessar esse repositório do trabalho, já é um treinamento.
@@ -35,34 +35,34 @@ Atenção! Leia atentamente as instruções que vocês encontrarem!
     Clique em Create Pull Request e confirme, outra pessoa vem aprovar dps\
     Para mais orientação disso tem esse vídeo\
     [Como criar seu primeiro Pull Request no GitHub](https://www.youtube.com/watch?v=Du04jBWrv4A)
-17. É necessário atualizar a branch sempre, eu vou ajudar com isso, mas os comandos de referência são:
-    `git checkout main` (vai para a branch principal que recebeu os merges)
-    `git pull` (para puxar as informações atualizadas do repositório)
-    `git checkout sua_branch` (ATENÇÃO! tudo deve ter sido salvo, commitado, e pushado pro repositório)
-    `git rebase main`
+17. É necessário atualizar a branch sempre, eu vou ajudar com isso, mas os comandos de referência são:\
+    `git checkout main` (vai para a branch principal que recebeu os merges)\
+    `git pull` (para puxar as informações atualizadas do repositório)\
+    `git checkout sua_branch` (ATENÇÃO! tudo deve ter sido salvo, commitado, e pushado pro repositório)\
+    `git rebase main`\
 
 Nessa playlist tem vídeos curtos para ajudar:
 
-[Instalando o Git:](https://www.youtube.com/watch?v=4IbSXeIFVE4&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=5)
+[Instalando o Git](https://www.youtube.com/watch?v=4IbSXeIFVE4&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=5)
 
-[Clonando um repositório para sua máquina:](https://www.youtube.com/watch?v=WEPB5pDSEIg&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=17)
+[Clonando um repositório para sua máquina](https://www.youtube.com/watch?v=WEPB5pDSEIg&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=17)
 
-[O que é uma branch e criando uma branch:](https://www.youtube.com/watch?v=gptt0KjFPR4&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=19)
+[O que é uma branch e criando uma branch](https://www.youtube.com/watch?v=gptt0KjFPR4&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=19)
 
-## O que falta fazermos no trabalho do Cotolengo? 
+### O que falta fazermos no trabalho do Cotolengo? 
 
-1. Criar os elementos do formulário :heavy_check_mark:
+1. Criar os elementos do formulário :heavy_check_mark:\
    1.1 Adicionar o formulário oficial na página form.html
 2. Estilizar o formulário :heavy_check_mark:
-3. Criar o texto da página sobre :heavy_check_mark:
+3. Criar o texto da página sobre :heavy_check_mark:\
    3.1 Criar a página about.html
 4. Estilizar a home
-5. Criar página da empresa (homepage) no arquivo index.html
+5. Criar página da empresa (homepage) no arquivo index.html\
    5.1 Adicionar ao rodapé o nome da empresa e link para acesso à página oficial
 6. Estilizar a página da empresa
 7. Adicionar JavaScript
 
-## O que falta fazermos no projeto extra da empresa?
+### O que falta fazermos no projeto extra da empresa?
 
 1. Definir qual projeto será desenvolvido
 2. Criar página inicial em index.html
@@ -70,17 +70,21 @@ Nessa playlist tem vídeos curtos para ajudar:
 4. Criar página extra
 5. Estilizar página extra
 
-## O que falta fazermos para a página da empresa?
+### O que falta fazermos para a página da empresa?
 
 1. Uma página inicial para nossa empresa em index.html mostrando os dois projetos
 2. Uma página simples de contato
 
-Adicionei meu formulário para orientação. Vamos criar os arquivos oficiais fora da pasta modelo.
+Adicionei meu formulário para orientação.\
+Vamos criar os arquivos oficiais fora da pasta modelo.
 
-## Orientações para uso do DOM (document object model)
+### Orientações para uso do DOM (document object model)
 
 [Manipular DOM com JavaScript](https://www.youtube.com/watch?v=0dBY09OJm04)
 
-## Paleta de cores
+### Paleta de cores
 
 [Paleta escolhida](https://coolors.co/palette/335c67-fff3b0-e09f3e-9e2a2b-540b0e)
+
+### Referência elementos HTML
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
