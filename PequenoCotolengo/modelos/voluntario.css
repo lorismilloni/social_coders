@@ -1,11 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
 body {
     background-color: #faebd7;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'ubuntu', sans-serif;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.container{
+    height: 400px;
+    width: 90%;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 5px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 900px;
-    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40pxl;
+    color: rgb(174, 21, 21);
+    font-family: 'ubuntu';
+
+}
+
+container-form{
+    width: 280px;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    text-align: center;
+}
+
+.btn_box{
+    width: 100%;
+    text-align: right;
+    
+}
+
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #cd1e1e, #ef6f6f);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor:pointer ;
+    font-size: 0.8em;
+}
+
+form input{
+width: 100%;
+padding: 20px 10px;
+margin: 5px 0;
+border: 0;
+border-bottom: 1px solid #999;
+outline: none;
+background: transparent;
 }
 
 a {
@@ -76,14 +138,18 @@ a {
     text-align: center;
 }
 
-#button-form {
-    border: none;
-    background-color: #99562a;
-    color: white;
-    text-decoration: solid;
-    font-size: 0.8em;
-    font-weight: bold;
-    padding: 4%;
-    border-radius: 5px;
-    margin-top: 30px;
+.form2 {
+    left: 450px;
+}
+
+.form3 {
+    left: 450px;
+}
+
+.form4 {
+    left: 450px;
+}
+
+.form5 {
+    left: 450px;
 }
