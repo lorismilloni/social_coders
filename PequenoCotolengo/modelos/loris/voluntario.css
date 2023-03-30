@@ -13,26 +13,26 @@ body {
     background-size: cover;
 }
 
-.container{
+.container {
     height: 400px;
     width: 90%;
     margin: 8% auto;
     background: #fff;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
-    position: relative;
+    text-align: center;
 }
 
-h1{
+h1 {
     text-align: center;
-    margin-bottom: 40pxl;
     color: rgb(174, 21, 21);
     font-family: 'ubuntu';
-
 }
 
-container-form{
+container-form {
     width: 280px;
     position: absolute;
     top: 110px;
@@ -40,13 +40,15 @@ container-form{
     text-align: center;
 }
 
-.btn_box{
+.btn_box {
     width: 100%;
     text-align: right;
+    padding: 20px;
+    align-self: flex-end;
     
 }
 
-form button{
+form button {
     width: 110px;
     height: 35px;
     margin: 0 10px;
@@ -59,7 +61,7 @@ form button{
     font-size: 0.8em;
 }
 
-form input{
+form input {
 width: 100%;
 padding: 20px 10px;
 margin: 5px 0;
@@ -80,8 +82,6 @@ a {
 }
 
 #header-bar {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
 }
@@ -91,7 +91,9 @@ a {
     justify-content: space-between;
     flex-direction: row;
     width: 300px;
+    margin-left: 29%;
 }
+
 
 #p-texts {
     text-align: justify;
@@ -135,20 +137,4 @@ a {
 
 #availability-div {
     text-align: center;
-}
-
-.form2 {
-    left: 450px;
-}
-
-.form3 {
-    left: 450px;
-}
-
-.form4 {
-    left: 450px;
-}
-
-.form5 {
-    left: 450px;
 }
