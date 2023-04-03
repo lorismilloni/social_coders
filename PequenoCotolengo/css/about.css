@@ -1,0 +1,43 @@
+.aboutpage-principal {
+    margin: 3vh;
+    padding: 3vh;
+    background-color: white;
+    box-shadow: 10px 10px #E09F3E;
+    color: #540B0E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutpage-principal img {
+    max-width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 1px #E09F3E;
+    margin: 1vh;
+}
+
+.aboutpage-text {
+    max-width: 40vh;
+    align-self: center;
+    text-align: justify;
+    margin: 3vh;
+    padding: 1vh;
+}
+
+.aboutpage-text a:visited {
+    color: #E09F3E;
+}
+
+.aboutpage-text h1 {
+    font-size: 2em;
+}
+
+.aboutpage-text h4 {
+    font-size: 1.2em;
+}
+
+.aboutpage-text p {
+    font-size: 1em;
+}

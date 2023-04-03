@@ -1,0 +1,53 @@
+.footer-cotolengo {
+    background-color: #E09F3E;
+    min-height: 13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+#footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-icons a {
+    margin: 2vh;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #540B0E;
+}
+
+#footer-icons a:visited {
+    color: #540B0E;
+}
+
+.logos-social {
+    width: 3vh;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #540B0E;
+    min-height: 13vh;
+    color: white;
+}
+
+#footer-img {
+    width: 30px;
+}
+
+#business-logo {
+    padding: 1vh;
+    margin: 1vh;
+}
+
+#business-text {
+    text-align: center;
+}
