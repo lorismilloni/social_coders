@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: #FFF3B0;
+    font-family: 'Heebo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    min-width: 10vh;
+    width: fit-content;
+    min-height: 5vh;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    background: linear-gradient(to right, #9E2A2B, #c1484a);
+    border-radius: 10px;
+    border: none;
+    outline: 1px solid #540B0E;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    width: 30vh;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background: transparent;
+}
+
+form {
+    background-color: white;
+    margin: 5vh;
+    padding: 3vh;
+    border-radius: 5px;
+    box-shadow: 10px 10px #E09F3E;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+}

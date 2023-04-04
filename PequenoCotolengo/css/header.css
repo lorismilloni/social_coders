@@ -1,0 +1,41 @@
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 2px solid #9E2A2B;
+}
+
+.header-bar a {
+    font-size: 1em; 
+    font-weight: bolder;
+    color: #9E2A2B;
+}
+
+.header-bar a:visited {
+    color: #9E2A2B;
+}
+
+#header-cotolengo {
+    margin: 1vh;
+    padding: 1vh;
+    max-width: 50vh;
+}
+
+#header-links {
+    margin: 1vh;
+    padding: 1vh;
+    max-width: 50vh;
+    margin-left: auto;
+}
+
+#header-links-1 {
+    margin-right: 10px;
+}
+
+#header-links-2 {
+    margin-right: 10px;
+}
+
+#header-links-3 {
+    margin-right: 10px;
+}

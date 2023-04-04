@@ -1,0 +1,51 @@
+#volunteer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #540B0E;
+}
+
+#volunteer h2 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#areas input {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 10px;
+}
+
+#time-available input {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 10px;
+}
+
+#areas {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#time-available {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.time-divs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 1vh;
+    padding: 3vh;
+    align-self: flex-start;
+    align-items: center;
+}
+
+.center-input {
+    align-self: center;
+}

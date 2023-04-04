@@ -1,0 +1,47 @@
+.frontpage-principal {
+    margin: 3vh;
+    padding: 3vh;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px #E09F3E;
+    color: #540B0E;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.frontpage-principal img {
+    max-width: 350px;
+}
+
+.frontpage-img {
+    margin: 1vh;
+    width: 350px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 3px #335C67;
+}
+
+.frontpage-img img {
+    width: inherit;
+    height: inherit;
+    border-radius: 5px;
+}
+
+.frontpage-text {
+    max-width: 40vh;
+    align-self: center;
+}
+
+.frontpage-text h3 {
+    font-size: 1.5em;
+}
+
+.frontpage-text h4 {
+    font-size: 1.2em;
+}
+
+.frontpage-text p {
+    font-size: 0.8em;
+}

@@ -1,0 +1,83 @@
+.form {
+    color: #540B0E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2vh;
+    margin: 1vh;
+}
+
+.form-header {
+    background-color: white;
+    margin: 5vh;
+    padding: 3vh;
+    border-radius: 5px;
+    box-shadow: 10px 10px #E09F3E;
+}
+
+#title-form {
+    color: #540B0E;
+    text-align: center;
+}
+
+.form h4 {
+    padding: 1vh;
+    margin: 1vh;
+}
+
+#birthday {
+    width: 70px;
+}
+
+#month-birthday {
+    width: 80px;
+}
+
+#authorization {
+    max-width: 50vh;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1vh;
+    margin-top: 5vh;
+}
+
+#authorization input {
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    border: 0;
+}
+
+#authorization-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#authorization-input-element {
+    margin: 2vh;
+}
+
+#campaign-authorization {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#campaign-input-element {
+    margin: 2vh;
+}
+
+#campaign-input-element input {
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    border: 0;
+}
+
+
+
