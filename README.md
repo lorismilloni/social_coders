@@ -56,13 +56,13 @@ Nessa playlist tem vídeos curtos para ajudar:
 2. Criar o formulário para voluntários :heavy_check_mark:\
    2.1 Estilizar o formulário para voluntários :heavy_check_mark:
 3. Criar a página sobre :heavy_check_mark:\
-   3.1 Criar o texto da página sobre :heavy_check_mark:\
+   3.1 Criar o texto da página sobre :heavy_check_mark:
 4. Criar a home page :heavy_check_mark:\
    4.1 Adicionar textos e imagens à homepage :heavy_check_mark:\
    4.2 Criar footer para Cotolengo :heavy_check_mark:\
    4.3 Criar footer para a Empresa :heavy_check_mark:\
    4.4 Criar Header com acesso para as páginas :heavy_check_mark:\
-   4.5 Estilizar a home page :heavy_check_mark:\
+   4.5 Estilizar a home page :heavy_check_mark:
 5. Melhorar responsividade
 6. Adicionar botões
 7. Adicionar JavaScript para validações
