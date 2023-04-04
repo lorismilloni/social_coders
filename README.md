@@ -44,39 +44,43 @@ Atenção! Leia atentamente as instruções que vocês encontrarem!
 Nessa playlist tem vídeos curtos para ajudar:
 
 [Instalando o Git](https://www.youtube.com/watch?v=4IbSXeIFVE4&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=5)
-
 [Clonando um repositório para sua máquina](https://www.youtube.com/watch?v=WEPB5pDSEIg&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=17)
-
 [O que é uma branch e criando uma branch](https://www.youtube.com/watch?v=gptt0KjFPR4&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A&index=19)
 
 ### O que falta fazermos no trabalho do Cotolengo? 
 
-1. Criar os elementos do formulário :heavy_check_mark:\
-   1.1 Adicionar o formulário oficial na página form.html
-2. Estilizar o formulário :heavy_check_mark:
-3. Criar o texto da página sobre :heavy_check_mark:\
-   3.1 Criar a página about.html
-4. Estilizar a home
-5. Criar página da empresa (homepage) no arquivo index.html\
-   5.1 Adicionar ao rodapé o nome da empresa e link para acesso à página oficial
-6. Estilizar a página da empresa
-7. Adicionar JavaScript
+1. Formulário :heavy_check_mark:\
+   1.1 Criar os elementos do formulário :heavy_check_mark:\
+   1.1 Adicionar o formulário oficial na página form.html :heavy_check_mark:\
+   1.2 Estilizar o formulário :heavy_check_mark:
+2. Criar o formulário para voluntários :heavy_check_mark:\
+   2.1 Estilizar o formulário para voluntários :heavy_check_mark:
+3. Criar a página sobre :heavy_check_mark:\
+   3.1 Criar o texto da página sobre :heavy_check_mark:\
+4. Criar a home page :heavy_check_mark:\
+   4.1 Adicionar textos e imagens à homepage :heavy_check_mark:\
+   4.2 Criar footer para Cotolengo :heavy_check_mark:\
+   4.3 Criar footer para a Empresa :heavy_check_mark:\
+   4.4 Criar Header com acesso para as páginas :heavy_check_mark:\
+   4.5 Estilizar a home page :heavy_check_mark:\
+5. Melhorar responsividade
+6. Adicionar botões
+7. Adicionar JavaScript para validações
 
 ### O que falta fazermos no projeto extra da empresa?
 
-1. Definir qual projeto será desenvolvido
+1. Definir qual projeto será desenvolvido :heavy_check_mark:
+   1.1 Página inicial e página sobre para uma agência de viagens
 2. Criar página inicial em index.html
 3. Estilizar página inicial
 4. Criar página extra
 5. Estilizar página extra
+6. Adicionar validações
 
 ### O que falta fazermos para a página da empresa?
 
 1. Uma página inicial para nossa empresa em index.html mostrando os dois projetos
 2. Uma página simples de contato
-
-Adicionei meu formulário para orientação.\
-Vamos criar os arquivos oficiais fora da pasta modelo.
 
 ### Orientações para uso do DOM (document object model)
 
@@ -84,7 +88,8 @@ Vamos criar os arquivos oficiais fora da pasta modelo.
 
 ### Paleta de cores
 
-[Paleta escolhida](https://coolors.co/palette/335c67-fff3b0-e09f3e-9e2a2b-540b0e)
+[Paleta escolhida Cotolengo](https://coolors.co/palette/335c67-fff3b0-e09f3e-9e2a2b-540b0e)
+[Paleta escolhida Viagens](https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500)
 
 ### Referência elementos HTML
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
