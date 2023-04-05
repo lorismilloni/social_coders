@@ -1,0 +1,61 @@
+body{
+
+    background-color: #8ECAE6;
+}
+ul {
+    margin: 0;
+    padding: 0;
+  
+}
+
+li {
+    
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+  
+}
+
+#cadastro {
+    margin-right: 10%;
+    color: white;
+    float: right;
+}
+ 
+a {
+    color: white;
+   font-size: medium;
+}
+
+#logo {
+    float: left;
+    color: rgb(247, 245, 248);
+    font-size: 25px;
+    
+}
+
+img {
+   
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    margin-top: 0px;
+
+}
+nav{
+    background-color: #219EBC;
+    height: 60px;
+}
+div{
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: #FFB703;
+    width: 99%;
+   
+}
