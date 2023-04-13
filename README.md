@@ -66,10 +66,11 @@ Nessa playlist tem vídeos curtos para ajudar:
 5. Melhorar responsividade
 6. Adicionar botões
 7. Adicionar JavaScript para validações
+8. Conferir os padrões de HTML Semântico
 
 ### O que falta fazermos no projeto extra da empresa?
 
-1. Definir qual projeto será desenvolvido :heavy_check_mark:
+1. Definir qual projeto será desenvolvido :heavy_check_mark:\
    1.1 Página inicial e página sobre para uma agência de viagens
 2. Criar página inicial em index.html
 3. Estilizar página inicial
