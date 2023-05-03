@@ -97,5 +97,5 @@ Nessa playlist tem vídeos curtos para ajudar:
 [Paleta escolhida Viagens](https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500)
 
 ### Referência elementos HTML
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)\
 [How to Build HTML Forms Right: Semantics](https://austingil.com/how-to-build-html-forms-right-semantics/)
