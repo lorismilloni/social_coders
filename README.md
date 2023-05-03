@@ -1,3 +1,7 @@
+# Autores
+
+![image](https://user-images.githubusercontent.com/80106256/235923668-e931e0d4-1595-411c-8fc3-3079a3d5c419.png)
+
 # social_coders
 Repositório e portfólio oficial da empresa Social Coders.
 
