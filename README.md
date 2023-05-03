@@ -98,3 +98,4 @@ Nessa playlist tem vídeos curtos para ajudar:
 
 ### Referência elementos HTML
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+[How to Build HTML Forms Right: Semantics](https://austingil.com/how-to-build-html-forms-right-semantics/)
