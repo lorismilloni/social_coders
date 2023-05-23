@@ -45,3 +45,15 @@
 .frontpage-text p {
     font-size: 0.8em;
 }
+
+#img-front-page{
+    
+    max-width: 40vh;
+    align-self: center;
+}
+
+#img-front-page2{
+    max-width: 100%;
+    height: 100%;
+}
+

@@ -41,3 +41,8 @@
 .aboutpage-text p {
     font-size: 1em;
 }
+
+#Imagem{
+    max-width: 100%;
+    height: auto;
+}
