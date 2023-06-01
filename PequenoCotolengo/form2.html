@@ -20,18 +20,23 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div>
-            <div class="header-bar">
+
+       
+        <header> 
+            <nav class="header-bar">
                 <div id="header-cotolengo">
                     <a href="./index.html">Pequeno Cotolengo de Palmas</a>
                 </div>
-                <div id="header-links">
-                    <a href="./index.html" id="header-links-1">Home</a>
-                    <a href="./about.html" id="header-links-2">Sobre nós</a>
-                    <a href="./form.html" id="header-links-3">Amigo 10</a>
-                    <a href="./form2.html">Voluntários</a>
-                </div>
-            </div>
+                <ul id="header-links">
+                    <li><a href="./index.html" id="header-links-1">Home</a></li>
+                    <li><a href="./about.html" id="header-links-2">Sobre nós</a></li> 
+                    <li><a href="./form.html" id="header-links-3">Amigo 10</a></li>
+                    <li><a href="./form2.html">Voluntários</a></li>
+                </ul>
+            </nav>
+        </header>
+      <main> 
+        <section> 
             <div class="form form-header">
                 <h1>Seja um voluntário</h1>
                 <p>A nossa Obra Orionita oferece oportunidades recebendo doações e disposição voluntária, além das doações da campanha Amigo 10, temos vários setores de voluntariado. Para fazer parte preencha seus dados abaixo e entraremos em contato:</p>
@@ -39,8 +44,8 @@
             <form>
                 <div id="volunteer">
                     <div id="areas">
-                        <h2>Áreas de atuação para voluntariado</h2>
-                        <p>Marque as caixas que se aplicam à sua disponibilidade:</p>
+                            <h2>Áreas de atuação para voluntariado</h2>
+                            <p>Marque as caixas que se aplicam à sua disponibilidade:</p>
                         <label for="role-01">
                             <input type="checkbox" name="role-01" id="role-01">
                         Comunicação
@@ -88,11 +93,11 @@
                     </div>
                     <div class="center-input">
                         <p>Outros:</p>
-                        <label for="role-04">
-                            <input type="text" name="role-04" id="role-04" placeholder="Escreva seu comentário">
+                        <label for="others">
+                            <input type="text" name="others" id="others" placeholder="Escreva seu comentário">
                         </label>
                     </div>
-                    <h2>Disponibilidade de horários</h2>
+                          <h2>Disponibilidade de horários</h2>
                     <div id="time-available">
                         <div class="time-divs">
                             <p>Dias da semana</p>
@@ -148,6 +153,10 @@
                     </div>
                 </div>
             </form>
+        </section>
+      </main> 
+
+        <footer> 
             <div class="footer-cotolengo">
                 <div id="footer-icons">
                     <div>
@@ -178,8 +187,9 @@
                     <p>© 2023 Social Coders, Inc.</p>
                 </div>
             </div>
-        </div>
-        </div>
+          </div>
+        </footer>  
+          
         <script src="" async defer></script>
     </body>
 </html>

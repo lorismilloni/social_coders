@@ -22,10 +22,13 @@
 }
 
 #header-links {
+    display: flex;
     margin: 1vh;
     padding: 1vh;
     max-width: 50vh;
     margin-left: auto;
+    list-style: none;
+    flex-direction: row;
 }
 
 #header-links-1 {
