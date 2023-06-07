@@ -56,21 +56,21 @@ Nessa playlist tem vídeos curtos para ajudar:
 1. Formulário :heavy_check_mark: Loris\
    1.1 Criar os elementos do formulário :heavy_check_mark: Loris\
    1.1 Adicionar o formulário oficial na página form.html :heavy_check_mark: Loris\
-   1.2 Estilizar o formulário :heavy_check_mark: Loris\
+   1.2 Estilizar o formulário :heavy_check_mark: Loris
 2. Criar o formulário para voluntários :heavy_check_mark: Loris\
-   2.1 Estilizar o formulário para voluntários :heavy_check_mark: Loris\
+   2.1 Estilizar o formulário para voluntários :heavy_check_mark: Loris
 3. Criar a página sobre :heavy_check_mark: Loris\
-   3.1 Criar o texto da página sobre :heavy_check_mark: Loris\ 
-4. Criar a home page :heavy_check_mark: Loris\ 
+   3.1 Criar o texto da página sobre :heavy_check_mark: Loris
+4. Criar a home page :heavy_check_mark: Loris\
    4.1 Adicionar textos e imagens à homepage :heavy_check_mark: Loris\ 
    4.2 Criar footer para Cotolengo :heavy_check_mark: Loris\
    4.3 Criar footer para a Empresa :heavy_check_mark: Loris\
    4.4 Criar Header com acesso para as páginas :heavy_check_mark: Loris\
-   4.5 Estilizar a home page :heavy_check_mark: Loris\
+   4.5 Estilizar a home page :heavy_check_mark: Loris
 5. Melhorar responsividade
 6. Adicionar botões
 7. Adicionar JavaScript para validações
-8. Conferir os padrões de HTML Semântico :heavy_check_mark: José\
+8. Conferir os padrões de HTML Semântico :heavy_check_mark: José
 
 ### Orientações para uso do DOM (document object model)
 
