@@ -1,10 +1,12 @@
 .footer-cotolengo {
-    background-color: #E09F3E;
+
     min-height: 13vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 10vh;
+    background: #FFFFFF;
+   
 }
 
 #footer-icons {
@@ -51,3 +53,4 @@
 #business-text {
     text-align: center;
 }
+
