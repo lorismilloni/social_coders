@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/footer.css">
         <link rel="stylesheet" href="./css/form.css">
+        <link rel="stylesheet" href="./css/form2.css">
     </head>
     <body>
           
@@ -37,9 +38,10 @@
                     <p>A nossa Obra Orionita oferece oportunidades recebendo doações e disposição voluntária, para doações temos nossa campanha chamada Amigo 10, em que os doadores doam mensalmente 10 reais para custear o projeto. Para fazer parte preencha seus dados abaixo:</p>
                 </div>
                 <div>
-                    <form id="title-form">
+                    <form id="title-form" onsubmit="validarCheckbox(event)">
                         <h1>Dados pessoais</h1>
                         <div class="form">
+                         <div id="dados-pessoais">
                             <div>
                                 <h4>Nome completo</h4>
                                 <label for="name">
@@ -68,6 +70,126 @@
                                     <input type="text" name="birthday-date" id="birthday-date" placeholder="dia/mês/ano">
                                 </label>
                             </div>
+                        </div>
+
+
+                            <div id="volunteer">
+                                <div id="areas">
+                                        <h2>Áreas de atuação para voluntariado</h2>
+                                        <p>Marque as caixas que se aplicam à sua disponibilidade:</p>
+                                    <label for="role-01">
+                                        <input type="checkbox" name="role-01" id="role-01">
+                                    Comunicação
+                                    </label>
+                                    <label for="role-02">
+                                        <input type="checkbox" name="role-02" id="role-02">
+                                        Quitanda
+                                    </label>
+                                    <label for="role-02">
+                                        <input type="checkbox" name="role-03" id="role-03">
+                                        Bazar
+                                    </label>
+                                    <label for="role-04">
+                                        <input type="checkbox" name="role-04" id="role-04">
+                                        Telemarketing
+                                    </label>
+                                    <label for="role-05">
+                                        <input type="checkbox" name="role-05" id="role-05">
+                                        Gestão de projetos e captação de recursos
+                                    </label>
+                                    <label for="role-06">
+                                        <input type="checkbox" name="role-06" id="role-06">
+                                        Fisioterapia
+                                    </label>
+                                    <label for="role-07">
+                                        <input type="checkbox" name="role-07" id="role-07">
+                                        Enfermagem
+                                    </label>
+                                    <label for="role-08">
+                                        <input type="checkbox" name="role-08" id="role-08">
+                                        Auxiliar de limpeza
+                                    </label>
+                                    <label for="role-09">
+                                        <input type="checkbox" name="role-09" id="role-09">
+                                        Monitoria
+                                    </label>
+                                    <label for="role-10">
+                                        <input type="checkbox" name="role-10" id="role-10">
+                                        Transportes
+                                    </label>
+                                    <label for="role-11">
+                                        <input type="checkbox" name="role-11" id="role-11">
+                                        Fonaudiologia
+                                    </label>
+                                    <label for="role-12">
+                                        <input type="checkbox" name="role-12" id="role-12">
+                                        Outros
+                                    </label>
+                                  
+                                  
+                                </div>
+                                <div class="center-input">
+                                    <p>Outros:</p>
+                                    <label for="others">
+                                        <input type="text" name="others" id="others" placeholder="Escreva seu comentário">
+                                    </label>
+                                </div>
+                                      <h2>Disponibilidade de horários</h2>
+                                <div id="time-available">
+                                    <div class="time-divs">
+                                        <p>Dias da semana</p>
+                                        <label for="monday">
+                                            <input type="checkbox" name="monday" id="monday">
+                                        Segunda-feira
+                                        </label>
+                                        <label for="tuesday">
+                                            <input type="checkbox" name="tuesday" id="tuesday">
+                                                Terça-feira
+                                        </label>
+                                        <label for="wednesday">
+                                            <input type="checkbox" name="wednesday" id="wednesday">
+                                            Quarta-feira
+                                        </label>
+                                        <label for="thursday">
+                                            <input type="checkbox" name="thursday" id="thursday">
+                                            Quinta-feira
+                                        </label>
+                                        <label for="friday">
+                                            <input type="checkbox" name="friday" id="friday">
+                                            Sexta-feira
+                                        </label>
+                                    </div>
+                                    <div class="time-divs">
+                                        <p>Finais de semana</p>
+                                        <label for="saturday">
+                                            <input type="checkbox" name="saturday" id="saturday">
+                                            Sábado
+                                        </label>
+                                        <label for="sunday">
+                                            <input type="checkbox" name="sunday" id="sunday">
+                                            Domingo
+                                        </label>
+                                    </div>
+                                    <div class="time-divs">
+                                        <p>Horários</p>
+                                        <label for="availability-time-morning">
+                                            <input type="checkbox" name="availability-time-morning" id="availability-time-morning">
+                                            Manhã
+                                        </label>
+                                        <label for="availability-time-afternoon">
+                                            <input type="checkbox" name="availability-time-afternoon" id="availability-time-afternoon">
+                                            Tarde
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="center-input">
+                                    <p>Comente sua disponibilidade de horário:</p>
+                                    <label for="availability">
+                                        <input type="text" name="availability" id="availability" placeholder="Escreva seu comentário">
+                                    </label>
+                                </div>
+                            </div>
+                            
                             <div id="authorization">
                                 <div>
                                     <p>Você autoriza o Cotolengo a enviar mensagem de feliz aniversário para você?</p>
@@ -141,6 +263,6 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <script src="" async defer></script>
+        <script src="./js/script.js" async defer></script>
     </body>
 </html>
