@@ -49,7 +49,19 @@ function validarCheckbox(event) {
   } else if (!algumCheckboxMarcado1) {
     alert("Por favor, marque um hotario");
   }
-  else{
-    alert("Enviado com sucesso");
+  
+   const name = document.getElementById("name");
+  switch (true) {
+    case name.value === "" || !validarNome(name.value):
+      alert("Por favor, escreva um nome.");
+      break;
+
   }
+function validarNome(name){
+  return /^[A-Za-z\s]+$/.test(name);
 }
+
+
+}
+
+
