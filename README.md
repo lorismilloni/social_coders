@@ -67,9 +67,9 @@ Nessa playlist tem vídeos curtos para ajudar:
    4.3 Criar footer para a Empresa :heavy_check_mark:\
    4.4 Criar Header com acesso para as páginas :heavy_check_mark:\
    4.5 Estilizar a home page :heavy_check_mark:
-5. Melhorar responsividade
-6. Adicionar botões
-7. Adicionar JavaScript para validações
+5. Melhorar responsividade :heavy_check_mark:
+6. Adicionar botões :heavy_check_mark:
+7. Adicionar JavaScript para validações :heavy_check_mark:
 8. Conferir os padrões de HTML Semântico :heavy_check_mark:
 
 ### Orientações para uso do DOM (document object model)
