@@ -1,16 +1,17 @@
 .header-bar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    margin: 1vh auto;
     border-bottom: 5px solid #9E2A2B;
 }
 
 .header-bar a {
     font-size: 1.5em; 
     font-weight: bolder;
+    border: 1px solid #9E2A2B;
     color: #9E2A2B;
+    padding: 0 3vh;
 }
 
 .header-bar a:visited {
