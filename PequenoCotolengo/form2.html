@@ -41,7 +41,7 @@
                 <h1>Seja um voluntário</h1>
                 <p>A nossa Obra Orionita oferece oportunidades recebendo doações e disposição voluntária, além das doações da campanha Amigo 10, temos vários setores de voluntariado. Para fazer parte preencha seus dados abaixo e entraremos em contato:</p>
             </div>
-            <form>
+            <form  onsubmit="validarCheckbox(event)">
                 <div id="volunteer">
                     <div id="areas">
                             <h2>Áreas de atuação para voluntariado</h2>
@@ -90,6 +90,12 @@
                             <input type="checkbox" name="role-11" id="role-11">
                             Fonaudiologia
                         </label>
+                        <label for="role-12">
+                            <input type="checkbox" name="role-12" id="role-12">
+                            Outros
+                        </label>
+                      
+                      
                     </div>
                     <div class="center-input">
                         <p>Outros:</p>
@@ -152,6 +158,7 @@
                         </label>
                     </div>
                 </div>
+                <input type="submit"  style="background-color: green" >
             </form>
         </section>
       </main> 
@@ -190,6 +197,6 @@
           </div>
         </footer>  
           
-        <script src="" async defer></script>
+        <script src="./js/script.js" async defer></script>
     </body>
 </html>
