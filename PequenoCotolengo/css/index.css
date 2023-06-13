@@ -1,10 +1,10 @@
 .frontpage-principal {
     margin: 3vh auto;
     padding: 3vh;
-    background-color: white;
+    background-color: #FFF3B0;
     border-radius: 5px;
-    box-shadow: 10px 10px #E09F3E;
-    color: #540B0E;
+    box-shadow: 10px 10px #e09f3ec9;
+    color: #335C67;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
