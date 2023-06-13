@@ -10,6 +10,11 @@
     font-size: 1.2em;
 }
 
-/* #aboutpage-link {
+#aboutpage-link {
+    text-align: center;
+}
 
-} */
+#about-img {
+    max-width: 500px;
+    width: 500px;
+}
