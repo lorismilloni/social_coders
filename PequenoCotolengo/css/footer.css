@@ -1,5 +1,5 @@
 .footer-cotolengo {
-    background-color: #E09F3E;
+    background-color: #e09f3ec9;
     min-height: 13vh;
     display: flex;
     flex-direction: row;
@@ -24,11 +24,11 @@
     margin: 2vh;
     font-size: 1.3em;
     font-weight: bold;
-    color: #540B0E;
+    color: #335C67;
 }
 
 #footer-icons a:visited {
-    color: #540B0E;
+    color: #335c6789;
 }
 
 .footer-social {
@@ -36,7 +36,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #540B0E;
+    background-color: #335C67;
     min-height: 13vh;
     color: white;
 }

@@ -3,20 +3,24 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid #9E2A2B;
+    border-bottom: 3px solid #335C67;
     flex-wrap: wrap;
 }
 
 .header-bar a {
     font-size: 1.5em; 
     font-weight: bolder;
-    border: 1px solid #9E2A2B;
-    color: #9E2A2B;
+    border-left: 0.5px solid #E09F3E;
+    border-right: 0.5px solid #E09F3E;
     padding: 0 3vh;
 }
 
+.header-bar a:hover {
+    background-color: #e09f3ec9;
+}
+
 .header-bar a:visited {
-    color: #9E2A2B;
+    color: #335c6789;
 }
 
 .header-links {
