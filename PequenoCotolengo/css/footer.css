@@ -4,13 +4,19 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-top: 10vh;
+    flex-wrap: wrap;
+}
+
+.footer-cotolengo img {
+    width: 3vh;
 }
 
 #footer-icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -25,10 +31,6 @@
     color: #540B0E;
 }
 
-.logos-social {
-    width: 3vh;
-}
-
 .footer-social {
     display: flex;
     flex-direction: row;
@@ -39,15 +41,12 @@
     color: white;
 }
 
-#footer-img {
-    width: 30px;
+.footer-social img {
+    width: 40px;
+    padding: 2vh;
+    margin: 2vh;
 }
 
-#business-logo {
-    padding: 1vh;
-    margin: 1vh;
-}
-
-#business-text {
+.footer-social p {
     text-align: center;
 }
