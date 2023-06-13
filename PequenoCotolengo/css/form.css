@@ -17,7 +17,8 @@
 
 .form-header {
     background-color: white;
-    margin: 5vh;
+    margin: 5vh auto;
+    max-width: 900px;
     padding: 3vh;
     border-radius: 5px;
     box-shadow: 10px 10px #E09F3E;
