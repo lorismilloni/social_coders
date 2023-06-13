@@ -1,1 +1,1 @@
-document.write('<header><nav class="header-bar"><div id="header-cotolengo"><a href="./index.html">Pequeno Cotolengo de Palmas</a></div><div><a href="./index.html">Home</a><a href="./about.html">Sobre nós</a><a href="./form.html">Ajude a instituição</a></div></nav></header>');
+document.write('<header><nav class="header-bar"><div class="header-links"><a href="./index.html">Pequeno Cotolengo de Palmas</a></div><div class="header-links"><a href="./index.html">Home</a><a href="./about.html">Sobre nós</a><a href="./form.html">Apoie</a></div></nav></header>');
