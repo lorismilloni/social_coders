@@ -2,43 +2,17 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border-bottom: 2px solid #9E2A2B;
+    align-items: center;
+    margin: 1vh auto;
+    border-bottom: 5px solid #9E2A2B;
 }
 
 .header-bar a {
-    font-size: 1em; 
+    font-size: 1.5em; 
     font-weight: bolder;
     color: #9E2A2B;
 }
 
 .header-bar a:visited {
     color: #9E2A2B;
-}
-
-#header-cotolengo {
-    margin: 1vh;
-    padding: 1vh;
-    max-width: 50vh;
-}
-
-#header-links {
-    display: flex;
-    margin: 1vh;
-    padding: 1vh;
-    max-width: 50vh;
-    margin-left: auto;
-    list-style: none;
-    flex-direction: row;
-}
-
-#header-links-1 {
-    margin-right: 10px;
-}
-
-#header-links-2 {
-    margin-right: 10px;
-}
-
-#header-links-3 {
-    margin-right: 10px;
 }
