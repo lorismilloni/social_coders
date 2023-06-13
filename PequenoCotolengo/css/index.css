@@ -1,5 +1,5 @@
 .frontpage-principal {
-    margin: 3vh;
+    margin: 3vh auto;
     padding: 3vh;
     background-color: white;
     border-radius: 5px;
@@ -9,6 +9,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    max-width: 800px;
 }
 
 .frontpage-principal img {
