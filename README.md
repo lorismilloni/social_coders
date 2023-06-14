@@ -97,7 +97,7 @@ Nessa playlist tem vídeos curtos para ajudar:
 ### Referência elementos HTML
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)\
 [How to Build HTML Forms Right: Semantics](https://austingil.com/how-to-build-html-forms-right-semantics/)\
-[https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)\
+[HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)\
 [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)\
 [HTML semantics cheat sheet](https://learntheweb.courses/topics/html-semantics-cheat-sheet/)\
 [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)\
