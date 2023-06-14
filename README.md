@@ -1,9 +1,23 @@
 # Autores
-
 ![image](https://user-images.githubusercontent.com/80106256/235923668-e931e0d4-1595-411c-8fc3-3079a3d5c419.png)
 
 # social_coders
 Repositório e portfólio oficial da empresa Social Coders.
+
+# Bem vindo ao nosso repositório
+Aqui é possível acompanhar todo nosso processo de desenvolvimento
+
+Para baixar o nosso projeto basta clicar no botão azul < > Code e fazer o download da pasta zipada
+![Download.zip](https://github.com/lorismilloni/social_coders/downloadProjecto.gif)
+
+Após isso, é só clicar em algum dos arquivos html disponíveis e selecionar para abrir no seu browser, a navegação vai ser toda por lá.
+
+Aqui uma visualização do que desenvolvemos:
+![Download.zip](https://github.com/lorismilloni/social_coders/amostraSite.gif)
+
+## Obrigada pela visita!
+
+### Aqui organizamos o nosso desenvolvimento e salvamos algumas das nossas referências usadas para desenvolvimento
 
 ### Orientação para usar o repositório no Git Hub :warning: 
 Atenção! Leia atentamente as instruções que vocês encontrarem!
@@ -83,3 +97,10 @@ Nessa playlist tem vídeos curtos para ajudar:
 ### Referência elementos HTML
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)\
 [How to Build HTML Forms Right: Semantics](https://austingil.com/how-to-build-html-forms-right-semantics/)
+[https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
+[Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+[HTML semantics cheat sheet](https://learntheweb.courses/topics/html-semantics-cheat-sheet/)
+[How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)
+[Flexbox CheatSheet](https://internetingishard.netlify.app/html-and-css/flexbox/index.html)
+[CSS @media Rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
+[Page Headers And Footers](https://www.uvm.edu/~bnelson/computer/javascript/pageheadersandfooters.html)
