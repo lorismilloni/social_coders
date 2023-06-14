@@ -1,5 +1,5 @@
 function validarCheckbox(event) {
-  var checkboxes = [
+var checkboxes = [
     document.getElementById("role-01"),
     document.getElementById("role-02"),
     document.getElementById("role-03"),
@@ -12,18 +12,18 @@ function validarCheckbox(event) {
     document.getElementById("role-10"),
     document.getElementById("role-11"),
     document.getElementById("role-12"),
-  ]
+]
 
-  var algumCheckboxMarcado = false;
+var algumCheckboxMarcado = false;
 
-  for (var i = 0; i < checkboxes.length; i++) {
+for (var i = 0; i < checkboxes.length; i++) {
     if (checkboxes[i].checked) {
-      algumCheckboxMarcado = true;
-      break;
+        algumCheckboxMarcado = true;
+        break;
     }
-  }
+}
 
-  var checkbox = [
+var checkbox = [
     document.getElementById("monday"),
     document.getElementById("tuesday"),
     document.getElementById("wednesday"),
@@ -31,25 +31,25 @@ function validarCheckbox(event) {
     document.getElementById("friday"),
     document.getElementById("saturday"),
     document.getElementById("sunday"),
-  ]
+]
 
-  var algumCheckboxMarcado1 = false;
+var algumCheckboxMarcado1 = false;
 
-  for (var i = 0; i < checkbox.length; i++) {
+for (var i = 0; i < checkbox.length; i++) {
     if (checkbox[i].checked) {
-      algumCheckboxMarcado1 = true;
-      break;
+        algumCheckboxMarcado1 = true;
+        break;
     }
-  }
+}
 
- const name = document.getElementById("name");
-  const address = document.getElementById("address");
-  const phone = document.getElementById("phone-number");
-  const ig = document.getElementById("social-ig");
-  const email = document.getElementById("social-email");
-  const birthday = document.getElementById("birthday-date");
- 
-  switch (true) {
+const name = document.getElementById("name");
+const address = document.getElementById("address");
+const phone = document.getElementById("phone-number");
+const ig = document.getElementById("social-ig");
+const email = document.getElementById("social-email");
+const birthday = document.getElementById("birthday-date");
+
+switch (true) {
     case name.value === "" || !validarNome(name.value):
       alert("Por favor, escreva um nome válido");
       break;
@@ -67,25 +67,24 @@ function validarCheckbox(event) {
       break;
 
     case  email.value === "" || !validarEmail(email.value):
-      alert("Por favor, insira um E-mail  válido");
+      alert("Por favor, insira um e-mail válido");
       break;
 
-   
     case  birthday.value === "" || !validarAniversario(birthday.value):
       alert("Por favor, insira um ano válido");
       break;
 
     case  !algumCheckboxMarcado1:
-       alert("Por favor, marque um horario");
-       break;
+        alert("Por favor, marque um horário");
+        break;
 
-     case  !algumCheckboxMarcado:
-       alert("Por favor, marque uma área de atuação");
-       break;
+    case  !algumCheckboxMarcado:
+        alert("Por favor, marque uma área de atuação");
+        break;
       
-      default:
-        alert("enviado com sucesso");
-  }
+    default:
+      alert("Enviado com sucesso!");
+}
 
 
 function validarNome(name){
@@ -110,8 +109,6 @@ function validarEndereco(address) {
   function validarAniversario (birthday) {
     return /^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$/.test(birthday);
   }
-
- 
 }
 
 
