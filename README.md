@@ -9,12 +9,21 @@ Aqui é possível acompanhar todo nosso processo de desenvolvimento
 
 Para baixar o nosso projeto basta clicar no botão azul < > Code e fazer o download da pasta zipada
 ![Download](PequenoCotolengo/imgs/downloadProjecto.gif)
-PequenoCotolengo/imgs/amostraSite.gif
 
 Após isso, é só clicar em algum dos arquivos html disponíveis e selecionar para abrir no seu browser, a navegação vai ser toda por lá.
 
-Aqui uma visualização do que desenvolvemos:
+## Aqui uma visualização do que desenvolvemos:
 ![Web site](PequenoCotolengo/imgs/amostraSite.gif)
+
+## Utilizamos as seguintes tecnologias:
+HTML, CSS, JavaScript, Regex, Git, GitHub, VSCode.\
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="55px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="55px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="55px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55px" />
+<img src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png" width="55px" />
+<img src="https://w7.pngwing.com/pngs/742/330/png-transparent-regular-expression-computer-icons-regular-language-regex-angle-text-logo.png" width="55px" />
 
 ## Obrigada pela visita!
 
