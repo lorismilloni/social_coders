@@ -1,7 +1,7 @@
 .form {
-    color: #540B0E;
+    color: #335C67;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     padding: 2vh;
@@ -9,14 +9,14 @@
     align-items: center;
 }
 
-#dados-pessoais{
+.formulario-blocos {
     display: flex;
-    justify-content: center;
-    width: 90%;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .form-header {
-    background-color: white;
+    background-color: #FFF3B0;
     margin: 5vh auto;
     max-width: 900px;
     padding: 3vh;
@@ -25,64 +25,32 @@
 }
 
 #title-form {
-    color: #540B0E;
+    color: #335C67;
     text-align: center;
 }
 
-.form h4 {
-    padding: 1vh;
-    margin: 1vh;
-}
-
-#birthday {
-    width: 70px;
-}
-
-#month-birthday {
-    width: 80px;
-}
-
-#authorization {
-    max-width: 50vh;
-    text-align: justify;
+.formulario-autorizacao {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin: 1vh;
-    margin-top: 5vh;
+    margin: 10px;
 }
 
-#authorization input {
-    margin: 0;
-    padding: 0;
-    width: 10px;
-    border: 0;
+.areas {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: start;
 }
 
-#authorization-input {
+.areas label {
+    display: flex;
+    justify-content: start;  
+    margin-top: 2px;
+}
+
+#areas-section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
 
-#authorization-input-element {
-    margin: 2vh;
-}
-
-#campaign-authorization {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#campaign-input-element {
-    margin: 2vh;
-}
-
-#campaign-input-element input {
-    margin: 0;
-    padding: 0;
-    width: 10px;
-    border: 0;
-}

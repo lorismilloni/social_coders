@@ -10,8 +10,6 @@
 .header-bar a {
     font-size: 1.5em; 
     font-weight: bolder;
-    border-left: 0.5px solid #E09F3E;
-    border-right: 0.5px solid #E09F3E;
     padding: 0 3vh;
 }
 
