@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Ajude a instituição</title>
+        <title>Apoie a instituição</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/style.css">
@@ -19,197 +19,174 @@
     <body>
         <script language="javascript" type="text/javascript" src="header.txt"></script>
         <main>
-            <section> 
-                <div class="form form-header">
-                    <h1>Campanha Amigo 10</h1>
-                    <p>A nossa Obra Orionita oferece oportunidades recebendo doações e disposição voluntária, para doações temos nossa campanha chamada Amigo 10, em que os doadores doam mensalmente 10 reais para custear o projeto. Para fazer parte preencha seus dados abaixo:</p>
-                </div>
-                <div class="form form-header">
-                    <h1>Seja um voluntário</h1>
-                    <p>A nossa Obra Orionita oferece oportunidades recebendo doações e disposição voluntária, além das doações da campanha Amigo 10, temos vários setores de voluntariado. Para fazer parte preencha seus dados abaixo e entraremos em contato:</p>
-                </div>
-                <div>
-                    <form class="form-header" id="title-form" onsubmit="validarCheckbox(event)">
-                        <h1>Dados pessoais</h1>
-                        <div class="form">
-                            <div id="dados-pessoais">
-                            <div>
-                                <h4>Nome completo</h4>
-                                <label for="name">
-                                    <input type="text" name="name" id="name" placeholder="João das Neves">
-                                </label>
-                                <h4>Endereço</h4>
-                                <label for="address">
-                                    <input type="text" name="address" id="address" placeholder="Rua Winter, Alameda 30, Lote 10">
-                                </label>
-                                <h4>Telefone</h4>
-                                <label for="phone-number">
-                                    <input type="tel" name="phone-number" id="phone-number" placeholder="63981123123">
-                                </label>
-                            </div>
-                            <div>
-                                <h4>Instagram</h4>
-                                <label for="social-ig">
-                                    <input type="text" name="social-ig" id="social-ig" placeholder="https://www.instagram.com/seuperfil/">
-                                </label>
-                                <h4>Email</h4>
-                                <label for="social-email">
-                                    <input type="text" name="social-email" id="social-email" placeholder="email@email.com">
-                                </label>
-                                <h4>Data de aniversário</h4>
-                                <label for="birthday-date">
-                                    <input type="text" name="birthday-date" id="birthday-date" placeholder="dia/mês/ano">
-                                </label>
-                            </div>
+            <section class="form form-header">
+                <h1>Faça parte da Campanha Amigo 10 ou seja um voluntário</h1>
+                <p>A nossa Obra Orionita oferece oportunidades recebendo doações e disposição voluntária, para doações temos nossa campanha chamada Amigo 10, em que os doadores doam mensalmente 10 reais para custear o projeto. Para fazer parte preencha seus dados abaixo:</p>
+                <p>A nossa Obra Orionita oferece oportunidades recebendo doações e disposição voluntária, além das doações da campanha Amigo 10, temos vários setores de voluntariado. Para fazer parte preencha seus dados abaixo e entraremos em contato:</p>
+            </section>
+            <section>
+                <form class="form-header" id="title-form" onsubmit="validarCheckbox(event)">
+                    <legend>
+                        <h1>Preencha seus dados pessoais para participar</h1>
+                    </legend>
+                    <div class="formulario-blocos">
+                        <div>
+                            <h4>Nome completo</h4>
+                            <label for="name">
+                                <input type="text" name="name" id="name" placeholder="João das Neves">
+                            </label>
+                            <h4>Endereço</h4>
+                            <label for="address">
+                                <input type="text" name="address" id="address" placeholder="Rua Tal, Ala, Lote 10">
+                            </label>
+                            <h4>Telefone</h4>
+                            <label for="phone-number">
+                                <input type="tel" name="phone-number" id="phone-number" placeholder="63981123123">
+                            </label>
                         </div>
-                            <div id="authorization">
-                                <div>
-                                    <p>Você autoriza o Cotolengo a enviar mensagem de feliz aniversário para você?</p>
-                                </div>
-                                <div id="authorization-input">
-                                    <div id="authorization-input-element">
-                                        <label for="auth-birthday">
-                                            <input type="checkbox" name="auth-birthday" id="auth-birthday">
-                                        </label>
-                                    </div>
-                                    <div>
-                                        <p>Eu autorizo</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="campaign-authorization">
-                                <div>
-                                    <h2>Você deseja fazer parte da campanha Amigo 10?</h2>
-                                </div>
-                                <div id="campaign-input-element">
-                                    <label for="auth-amigo10">
-                                        <input type="checkbox" name="auth-amigo10" id="auth-amigo10">
-                                        Sim, quero doar 10 reais mensalmente à instituição
-                                    </label>
-                                </div>
-                                <div id="volunteer">
-                                    <div id="areas">
-                                        <h2>Áreas de atuação para voluntariado</h2>
-                                        <p>Marque as caixas que se aplicam à sua disponibilidade:</p>
-                                        <label for="role-01">
-                                            <input type="checkbox" name="role-01" id="role-01">
-                                            Comunicação
-                                        </label>
-                                        <label for="role-02">
-                                            <input type="checkbox" name="role-02" id="role-02">
-                                            Quitanda
-                                        </label>
-                                        <label for="role-02">
-                                            <input type="checkbox" name="role-03" id="role-03">
-                                            Bazar
-                                        </label>
-                                        <label for="role-04">
-                                            <input type="checkbox" name="role-04" id="role-04">
-                                            Telemarketing
-                                        </label>
-                                        <label for="role-05">
-                                            <input type="checkbox" name="role-05" id="role-05">
-                                            Gestão de projetos e captação de recursos
-                                        </label>
-                                        <label for="role-06">
-                                            <input type="checkbox" name="role-06" id="role-06">
-                                            Fisioterapia
-                                        </label>
-                                        <label for="role-07">
-                                            <input type="checkbox" name="role-07" id="role-07">
-                                            Enfermagem
-                                        </label>
-                                        <label for="role-08">
-                                            <input type="checkbox" name="role-08" id="role-08">
-                                            Auxiliar de limpeza
-                                        </label>
-                                        <label for="role-09">
-                                            <input type="checkbox" name="role-09" id="role-09">
-                                            Monitoria
-                                        </label>
-                                        <label for="role-10">
-                                            <input type="checkbox" name="role-10" id="role-10">
-                                            Transportes
-                                        </label>
-                                        <label for="role-11">
-                                            <input type="checkbox" name="role-11" id="role-11">
-                                            Fonaudiologia
-                                        </label>
-                                        <label for="role-12">
-                                            <input type="checkbox" name="role-12" id="role-12">
-                                            Outros
-                                        </label>
-                                    </div>
-                                    <div class="center-input">
-                                        <p>Outros:</p>
-                                        <label for="others">
-                                            <input type="text" name="others" id="others" placeholder="Escreva seu comentário">
-                                        </label>
-                                    </div>
-                                        <h2>Disponibilidade de horários</h2>
-                                    <div id="time-available">
-                                        <div class="time-divs">
-                                            <p>Dias da semana</p>
-                                            <label for="monday">
-                                                <input type="checkbox" name="monday" id="monday">
-                                            Segunda-feira
-                                            </label>
-                                            <label for="tuesday">
-                                                <input type="checkbox" name="tuesday" id="tuesday">
-                                                    Terça-feira
-                                            </label>
-                                            <label for="wednesday">
-                                                <input type="checkbox" name="wednesday" id="wednesday">
-                                                Quarta-feira
-                                            </label>
-                                            <label for="thursday">
-                                                <input type="checkbox" name="thursday" id="thursday">
-                                                Quinta-feira
-                                            </label>
-                                            <label for="friday">
-                                                <input type="checkbox" name="friday" id="friday">
-                                                Sexta-feira
-                                            </label>
-                                        </div>
-                                        <div class="time-divs">
-                                            <p>Finais de semana</p>
-                                            <label for="saturday">
-                                                <input type="checkbox" name="saturday" id="saturday">
-                                                Sábado
-                                            </label>
-                                            <label for="sunday">
-                                                <input type="checkbox" name="sunday" id="sunday">
-                                                Domingo
-                                            </label>
-                                        </div>
-                                        <div class="time-divs">
-                                            <p>Horários</p>
-                                            <label for="availability-time-morning">
-                                                <input type="checkbox" name="availability-time-morning" id="availability-time-morning">
-                                                Manhã
-                                            </label>
-                                            <label for="availability-time-afternoon">
-                                                <input type="checkbox" name="availability-time-afternoon" id="availability-time-afternoon">
-                                                Tarde
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="center-input">
-                                        <p>Comente sua disponibilidade de horário:</p>
-                                        <label for="availability">
-                                            <input type="text" name="availability" id="availability" placeholder="Escreva seu comentário">
-                                        </label>
-                                    </div>
-                                </div>
-                                <div>
-                                    <button type="submit">
-                                        Enviar informações
-                                    </button>
-                                </div>
-                            </div>
+                        <div>
+                            <h4>Instagram</h4>
+                            <label for="social-ig">
+                                <input type="text" name="social-ig" id="social-ig" placeholder="https://www.instagram.com/seuperfil/">
+                            </label>
+                            <h4>Email</h4>
+                            <label for="social-email">
+                                <input type="text" name="social-email" id="social-email" placeholder="email@email.com">
+                            </label>
+                            <h4>Data de aniversário</h4>
+                            <label for="birthday-date">
+                                <input type="text" name="birthday-date" id="birthday-date" placeholder="dia/mês/ano">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="formulario-autorizacao">
+                        <div>
+                            <p>Você autoriza o Cotolengo a enviar mensagem de feliz aniversário para você?</p>
+                            <label for="auth-birthday">
+                                <input type="checkbox" name="auth-birthday" id="auth-birthday">
+                                Eu autorizo
+                            </label>
+                        </div>
+                        <div>
+                            <h4>Você deseja fazer parte da campanha Amigo 10?</h4>
+                            <label for="auth-amigo10">
+                                <input type="checkbox" name="auth-amigo10" id="auth-amigo10">
+                                Sim, quero doar 10 reais mensalmente à instituição
+                            </label>
+                        </div>
+                    </div>
+                    <h2>Áreas de atuação para voluntariado e disponibilidade</h2>
+                    <section id="areas-section">
+                        <div class="formulario-blocos areas">    
+                            <h4>Marque as caixas que se aplicam à sua atuação:</h4>
+                            <label for="role-01">
+                                <input type="checkbox" name="role-01" id="role-01">
+                                Comunicação
+                            </label>
+                            <label for="role-02">
+                                <input type="checkbox" name="role-02" id="role-02">
+                                Quitanda
+                            </label>
+                            <label for="role-02">
+                                <input type="checkbox" name="role-03" id="role-03">
+                                Bazar
+                            </label>
+                            <label for="role-04">
+                                <input type="checkbox" name="role-04" id="role-04">
+                                Telemarketing
+                            </label>
+                            <label for="role-05">
+                                <input type="checkbox" name="role-05" id="role-05">
+                                Gestão de projetos
+                            </label>
+                            <label for="role-05">
+                                <input type="checkbox" name="role-05" id="role-05">
+                                Captação de recursos
+                            </label>
+                            <label for="role-06">
+                                <input type="checkbox" name="role-06" id="role-06">
+                                Fisioterapia
+                            </label>
+                            <label for="role-07">
+                                <input type="checkbox" name="role-07" id="role-07">
+                                Enfermagem
+                            </label>
+                            <label for="role-08">
+                                <input type="checkbox" name="role-08" id="role-08">
+                                Auxiliar de limpeza
+                            </label>
+                            <label for="role-09">
+                                <input type="checkbox" name="role-09" id="role-09">
+                                Monitoria
+                            </label>
+                            <label for="role-10">
+                                <input type="checkbox" name="role-10" id="role-10">
+                                Transportes
+                            </label>
+                            <label for="role-11">
+                                <input type="checkbox" name="role-11" id="role-11">
+                                Fonaudiologia
+                            </label>
+                            <label for="role-12">
+                                <input type="checkbox" name="role-12" id="role-12">
+                                Outros
+                            </label>
+                            <label for="others">
+                                <input type="text" name="others" id="others" placeholder="Escreva seu comentário">
+                            </label>
+                        </div>
+                        <div class="areas">
+                            <h4>Dias</h4>
+                            <label for="monday">
+                                <input type="checkbox" name="monday" id="monday">
+                                Segunda-feira
+                            </label>
+                            <label for="tuesday">
+                                <input type="checkbox" name="tuesday" id="tuesday">
+                                Terça-feira
+                            </label>
+                            <label for="wednesday">
+                                <input type="checkbox" name="wednesday" id="wednesday">
+                                Quarta-feira
+                            </label>
+                            <label for="thursday">
+                                <input type="checkbox" name="thursday" id="thursday">
+                                Quinta-feira
+                            </label>
+                            <label for="friday">
+                                <input type="checkbox" name="friday" id="friday">
+                                Sexta-feira
+                            </label>
+                            <label for="saturday">
+                                <input type="checkbox" name="saturday" id="saturday">
+                                Sábado
+                            </label>
+                            <label for="sunday">
+                                <input type="checkbox" name="sunday" id="sunday">
+                                Domingo
+                            </label>
+                            <h4>Horários</h4>
+                            <label for="availability-time-morning">
+                                <input type="checkbox" name="availability-time-morning" id="availability-time-morning">
+                                Manhã
+                            </label>
+                            <label for="availability-time-afternoon">
+                                <input type="checkbox" name="availability-time-afternoon" id="availability-time-afternoon">
+                                Tarde
+                            </label>
+                            <label for="outro-horario">
+                                <input type="checkbox" name="outro-horario" id="outro-horario">
+                                Outros
+                            </label>
+                            <label for="outro-horario-input">
+                                <input type="text" name="outro-horario-input" id="outro-horario-input" placeholder="Escreva seu comentário">
+                            </label>
                         </div> 
-                    </form>
-                </div>
+                    </section>
+                    <div>
+                        <button type="submit">Enviar informações</button>
+                    </div>
+                </form>
             </section>
         </main>
         <script language="javascript" type="text/javascript" src="footer.txt"></script>
