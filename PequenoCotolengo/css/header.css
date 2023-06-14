@@ -10,7 +10,7 @@
 .header-bar a {
     font-size: 1.5em; 
     font-weight: bolder;
-    padding: 0 3vh;
+    padding: 20px;
 }
 
 .header-bar a:hover {
@@ -30,8 +30,22 @@
     flex-wrap: wrap;
 }
 
-@media (max-width:720px) {
-    .header-links {
+@media (max-width:780px) {
+    .header-title {
         visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .header-links {
+        margin: auto;
+    }
+}
+
+@media (max-width:375px) {
+    .header-bar {
+        visibility: hidden;
+        width: 0;
+        height: 0;
     }
 }
