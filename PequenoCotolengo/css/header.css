@@ -29,3 +29,9 @@
     min-width: 300px;
     flex-wrap: wrap;
 }
+
+@media (max-width:720px) {
+    .header-links {
+        visibility: hidden;
+    }
+}
