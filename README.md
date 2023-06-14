@@ -8,12 +8,13 @@ Repositório e portfólio oficial da empresa Social Coders.
 Aqui é possível acompanhar todo nosso processo de desenvolvimento
 
 Para baixar o nosso projeto basta clicar no botão azul < > Code e fazer o download da pasta zipada
-![Download.zip](https://github.com/lorismilloni/social_coders/PequenoCotolengo/imgs/downloadProjecto.gif)
+![Download](PequenoCotolengo/imgs/downloadProjecto.gif)
+PequenoCotolengo/imgs/amostraSite.gif
 
 Após isso, é só clicar em algum dos arquivos html disponíveis e selecionar para abrir no seu browser, a navegação vai ser toda por lá.
 
 Aqui uma visualização do que desenvolvemos:
-![Download.zip](https://github.com/lorismilloni/social_coders/PequenoCotolengo/imgs/amostraSite.gif)
+![Web site](PequenoCotolengo/imgs/amostraSite.gif)
 
 ## Obrigada pela visita!
 
